@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Welcome to fomr model page connectivity </h1>
+    <form method="POST" >
+      {{form.as_p}}
+      {% csrf_token %}
+      <input type="submit" name="" value="submit">
+
+    </form>
+
+  </body>
+</html>
